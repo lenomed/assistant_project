@@ -1,0 +1,14 @@
+[
+    {
+        "name": "name",
+        "age": 13,
+        "nickname": "CyberKnight",
+        "score": 50
+    },
+    {
+        "name": "jethro",
+        "age": 22,
+        "nickname": "NovaKing",
+        "score": 50
+    }
+]
