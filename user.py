@@ -2,12 +2,12 @@ from random import choice
 
 
 class User:
-    def __init__(self, name, age, nickname=None, score=0):
+    def __init__(self, name, age, email, nickname=None,  score=0):
         self.name = name
         self.age = age
         self.nickname = nickname
         self.score = score
-
+        self.email = email
     def get_name(self):
         return self.name
 
@@ -19,6 +19,9 @@ class User:
 
     def get_score(self):
         return self.score
+
+    def get_email(self):
+        return self.email
 
     def generate_nickname(self):
         nicknames = [
@@ -48,4 +51,8 @@ class User:
             try:
                 return int(input("Please enter your age: "))
             except ValueError:
-                print("Enter a valid number.")
+                print("Enter a valid number.")\
+
+    @staticmethod
+    def input_email():
+        return input("Please enter your email: ").strip().lower()

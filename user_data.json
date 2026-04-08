@@ -1,13 +1,15 @@
 [
     {
-        "name": "name",
-        "age": 13,
+        "name": "jethro",
+        "age": 34,
+        "email": "jethromegamind@gmail.com",
         "nickname": "CyberKnight",
         "score": 50
     },
     {
-        "name": "jethro",
-        "age": 22,
+        "name": "roader",
+        "age": 34,
+        "email": "lash",
         "nickname": "NovaKing",
         "score": 50
     }
